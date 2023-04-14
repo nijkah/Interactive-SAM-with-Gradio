@@ -4,17 +4,17 @@ This is a demo application on Segment Anything Model with user point prompts.
 
 ![Main Image](./assets/main_example.png)
 
-
 Segment Anything Model ([SAM](https://github.com/facebookresearch/segment-anything)) is a segmentation foundation model recently released by Facebook Research, capable of segmenting literally anything in an image with remarkable accuracy. Its basic function is to segment objects indicated by user prompts such as points, boxes, and masks.
 
 Gradio, a machine learning tool for building UIs, has recently added support for [getting image coordinates of mouse clicks](https://github.com/gradio-app/gradio/pull/3786), which is utilized in this application.
 
-
 ## Main functions
+
 - Give positive, negative points
 - FP16 inference for faster inference
 
 ## Quick Start
+
 ```bash
 git clone https://github.com/nijkah/interactive_sam_gradio_demo
 cd interative_sam_gradio_demo
@@ -24,6 +24,7 @@ python3 main.py
 ```
 
 ## Acknowledgement
+
 ```
 @article{kirillov2023segany,
   title={Segment Anything},
