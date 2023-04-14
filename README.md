@@ -16,7 +16,7 @@ Gradio, a machine learning tool for building UIs, has recently added support for
 ## Quick Start
 
 ```bash
-git clone https://github.com/nijkah/interactive_sam_gradio_demo
+git clone https://github.com/nijkah/Interactive-SAM-with-Gradio
 cd interative_sam_gradio_demo
 pip install -r requirements.txt
 
