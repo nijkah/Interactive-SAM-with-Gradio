@@ -1,3 +1,5 @@
 git+https://github.com/facebookresearch/segment-anything
 gradio
 torch
+torchvision
+opencv-python
